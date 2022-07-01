@@ -2,7 +2,7 @@
 
 
 <img width="808" alt="result" src="https://user-images.githubusercontent.com/101788422/176816516-3a80458d-76ec-4c19-98c1-30dd48e44b7d.png">
-
+> เปิดในโปรแกรม QGis
 
 # สร้างสภาพแวดล้อมใหม่
 `code conda create <environment name> python=3.9`
