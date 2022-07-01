@@ -42,8 +42,8 @@
 -	run cell สุดท้ายเพื่อแปลงเป็นค่า center(x,y) แล้วนำไปใส่ในส่วน Rasterio
 #### code ส่วนที่ต้องแก้
 ```python
-yolov5_model_path = r'(path  to  weight)’
-result = get_sliced_prediction(“(path to image)”,
+yolov5_model_path = r'<path  to  weight>’
+result = get_sliced_prediction(“<path to image>”,
                                detection_model,
                                slice_height =1024,
                                slice_width = 1024,
@@ -55,13 +55,14 @@ result = get_sliced_prediction(“(path to image)”,
 # Rasterio แปลงค่าให้เป็นพิกัดในโลกจริง
 ติดตั้ง library
 `pip install rasterio `
+หาก error ให้ติดตั้ง GDAL and rasterio wheel จาก https://www.lfd.uci.edu/~gohlke/pythonlibs/ แล้วค่อย pip3 install <filename>
 
 ```python
-with rasterio.open("(path to image)") as dataset:
+with rasterio.open("<path to image>") as dataset:
     print(dataset.profile)
     aff = dataset.transform
 
-with open("(path with name of file to store csv)", "w") as f:
+with open("<path with name of file to store csv>", "w") as f:
     writer = csv.writer(f)
     writer.writerow(["x","y"])
     for c in row_column: 
