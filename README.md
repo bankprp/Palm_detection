@@ -1,6 +1,7 @@
 # Palm_detection
 ![detect2000_2000](https://user-images.githubusercontent.com/106720151/176812700-82afcd08-7732-4011-8aed-fea6897ea9a4.png)
 
+<img width="808" alt="result" src="https://user-images.githubusercontent.com/101788422/176816516-3a80458d-76ec-4c19-98c1-30dd48e44b7d.png">
 
 # สร้างสภาพแวดล้อมใหม่
 `code conda create <environment name> python=3.9`
