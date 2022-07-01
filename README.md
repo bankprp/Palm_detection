@@ -1,6 +1,7 @@
 # Palm_detection
-![Palm_2_47](https://user-images.githubusercontent.com/101788422/176817830-23d55b1c-fc99-43f8-ade4-8fa1ef7f01da.png)
 
+
+![Palm_2_47](https://user-images.githubusercontent.com/101788422/176817901-66a80721-1b14-4a48-90d3-01a94b669dc0.png)
 
 <img width="808" alt="result" src="https://user-images.githubusercontent.com/101788422/176816516-3a80458d-76ec-4c19-98c1-30dd48e44b7d.png">
 
