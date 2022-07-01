@@ -1,13 +1,16 @@
 # Palm_detection
-# สร้างสภาพแวดล้อมใหม่
-`code conda create (environment name) python=3.9`
+![detect2000_2000](https://user-images.githubusercontent.com/106720151/176812700-82afcd08-7732-4011-8aed-fea6897ea9a4.png)
 
-`code conda activate (environment name)`
+
+# สร้างสภาพแวดล้อมใหม่
+`code conda create <environment name> python=3.9`
+
+`code conda activate <environment name>`
 # Yolov5 เพื่อการเทรนโมเดล และ detect
  
 สร้าง โฟลเดอร์ของ yolov5
 
-`cd (folder)`
+`cd <folder>`
 
 `git clone https://github.com/ultralytics/yolov5`
 
