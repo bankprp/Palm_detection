@@ -1,5 +1,13 @@
 # Palm_detection
 
+
+
+
+
+
+
+
+
 <img width="1024" alt="result" src="https://user-images.githubusercontent.com/101788422/176817901-66a80721-1b14-4a48-90d3-01a94b669dc0.png">
 
 
